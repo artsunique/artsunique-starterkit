@@ -1,0 +1,8 @@
+@tailwind base;
+
+@import "./autoload/**/*";
+
+@tailwind components;
+@tailwind utilities;
+
+@import "common/global";
