@@ -7,6 +7,8 @@
     <div class="wrap container" role="document">
       <div class="content">
         <main class="main">
+           @include('partials.portfolio')
+
           @yield('content')
         </main>
         @if (App\display_sidebar())
